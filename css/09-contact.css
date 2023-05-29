@@ -1,0 +1,130 @@
+#contact
+{
+    background-color: #EAF2FD;
+    height: 593px;
+    display: flex;
+    padding: 2em 4em 4em 4em;
+}
+.contact-form
+{
+    margin-left: 15px;
+}
+.contact-form h2
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.contact-form p
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 3px;
+}
+#form
+{
+    margin-top: 15px;
+}
+.contact-form-container, .contact-form-container-area
+{
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 3px;
+}
+.contact-form-container label, .contact-form-container-area label
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    padding-left: 5px;
+}
+.contact-form-container input, .contact-form-container-area textarea
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    padding: 5px;
+    border: none;
+}
+.contact-form-container input:hover, .contact-form-container-area textarea:hover
+{
+    cursor: pointer;
+}
+#enviar
+{
+    width: 125px;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+#enviar:hover
+{
+    border: 1px solid #2A7AE4;
+    background: #ffffff;
+    color:#2A7AE4;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px)
+{
+    .contact-img
+    {
+        display: none;
+    }
+    .contact-form
+    {
+        margin: 0;
+        width: 100%;
+    }
+    .contact-form h2
+    {
+        font-size: 28px;
+    }
+    .contact-form p
+    {
+        font-size: 14px;
+    }
+    .contact-form #form
+    {
+        margin: 15px 0;
+    }
+    .contact-form-container input, .contact-form-container-area textarea
+    {
+        font-size: 14px;
+    }
+    #enviar
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    #contact
+    {
+        padding-bottom: 6em;
+    }
+}

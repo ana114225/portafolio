@@ -1,0 +1,96 @@
+#education
+{
+    background-color: #EAF2FD;
+    justify-content: center;
+    padding: 1em 4em;
+}
+#education h2
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #464646;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#education ul
+{
+    display: flex;
+    justify-content: center;
+}
+#education li
+{
+    margin: 2em;
+}
+.education-container
+{
+    width: 368px;
+    height: 286px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education li h3
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #464646;
+}
+.education li p
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #464646;
+}
+@media screen and (max-width: 1024px)
+{
+    #education h2
+    {
+        font-size: 28px;
+    }
+    .education li h3
+    {
+        font-size: 16px;
+    }
+    .education li p
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    #education ul
+    {
+        flex-wrap: wrap;
+    }
+    .education-container
+    {
+        width: 184px;
+        height: 143px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .education-container img
+    {
+        width: 90%;
+    }
+    .education li h3
+    {
+        font-size: 14px;
+    }
+    .education li p
+    {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,57 @@
+.cabecera
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em 0 4em;
+}
+.cabecera-container
+{
+    display: flex;
+    align-items: center;
+}
+.cabecera-container p
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #464646;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 0.5em;
+}
+.cabecera-nav ul
+{
+    display: flex;
+}
+.cabecera-nav li
+{
+    margin: 0 5px;
+}
+.cabecera-nav a
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #464646;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 0.5em;
+}
+.cabecera-nav a:hover
+{
+    font-weight: 500;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1024px)
+{
+    .cabecera-nav li
+    {
+        display: none;  
+    }
+    .cabecera-nav a
+    {
+        font-weight: 700;
+    }
+}
